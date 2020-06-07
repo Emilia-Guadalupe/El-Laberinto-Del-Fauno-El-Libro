@@ -7,6 +7,7 @@ html {
   scroll-behavior: smooth; }
 
 /*estilos de barra de navegación*/
+
 header {
   display: flex;
   justify-content: center; }
@@ -113,8 +114,8 @@ p {
 /*Animaciones de la sección del libro*/
 
 .bg-pan-bl {
-	-webkit-animation: bg-pan-bl 7s infinite alternate-reverse both;
-	        animation: bg-pan-bl 7s infinite alternate-reverse both;
+	-webkit-animation: bg-pan-bl 13s infinite alternate-reverse both;
+	        animation: bg-pan-bl 13s infinite alternate-reverse both;
 }
 
 @-webkit-keyframes bg-pan-bl {
