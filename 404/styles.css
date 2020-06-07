@@ -1,0 +1,17 @@
+body {
+    background-image: url(../ZenBG-1.png);
+}
+
+#page {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 40px;
+    margin-left: 30px; 
+    color: whitesmoke;
+}
+
+a {
+    margin: 30px;
+    font-size: 23px; 
+    color: darkgoldenrod;
+     font-family: "Open Sans", sans-serif
+}
