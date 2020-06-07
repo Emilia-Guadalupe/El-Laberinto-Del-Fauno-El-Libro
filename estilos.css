@@ -470,39 +470,11 @@ h2 {
 
 #faun {
     width: 420px;
-    border: none; 
-    border-radius: 20px; 
 }
 
 .box_1 {
   font-size: 20px;
 }
-
-
-/*Animaciones de la sección del libro*/
-
-.bg-pan-bl {
-	-webkit-animation: bg-pan-bl 13s infinite alternate-reverse both;
-	        animation: bg-pan-bl 13s infinite alternate-reverse both;
-}
-
-@-webkit-keyframes bg-pan-bl {
-  0% {
-    background-position: 100% 0%;
-  }
-  100% {
-    background-position: 0% 100%;
-  }
-}
-@keyframes bg-pan-bl {
-  0% {
-    background-position: 100% 0%;
-  }
-  100% {
-    background-position: 0% 100%;
-  }
-}
-
 
 /*Elementos de estilo del libro y sus características*/
 
