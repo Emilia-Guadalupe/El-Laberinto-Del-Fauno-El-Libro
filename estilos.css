@@ -1,4 +1,5 @@
 /*Estilos de la página*/
+
 * {
   margin: 0px;
   padding: 0px; }
@@ -64,7 +65,7 @@ h1 {
   margin-right: 100px;
   padding-top: 100px; }
 
-h2 {
+h2 { 
   text-align: center;
   padding: 20px;
   font-family: "Jim Nightshade", cursive;
@@ -302,14 +303,14 @@ table td {
   color: whitesmoke; }
 
 form {
-  width: 400px;
+  width: 500px;
   margin: 0px auto;
   padding: 20px;
   background-color: white;
   font-family: "Open Sans", sans-serif;
   border: 2px solid black;
   border-radius: 10px;
-  width: 500px; }
+  }
 
 .g_uno, .g_dos, .g_tres {
   width: 95%;
@@ -412,7 +413,9 @@ textarea {
   75% {
     -webkit-transform: translateX(-6px) rotate(1.2deg);
     transform: translateX(-6px) rotate(1.2deg); } }
+
 /*Estilos del Footer*/
+
 footer {
   padding: 10px;
   height: 30px;
@@ -421,3 +424,142 @@ footer {
   font-family: "Open Sans", sans-serif;
   background-color: black;
   border-top: 2px solid darkgoldenrod; }
+
+/* Media Queries y versión mobile */
+
+@media only screen and (max-width: 600px) {
+
+/*estilos de barra de navegación*/
+
+nav {
+  border-bottom: 2px solid darkgoldenrod;
+ }
+
+.option {
+  font-size: 12px;
+  }
+
+/*Estilos del título y subtítulo*/
+
+h1 {
+  font-size: 40px;
+ }
+
+h2 { 
+    font-size: 20px;
+    }
+
+    
+/*Elementos de la sección del libro*/ 
+    
+#general {
+    display: grid;
+    width: 100%;
+    max-width: 600px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px; 
+    grid-template-areas:
+						'div'
+                        'div';
+    }
+
+#section_1 {
+  width: 600px;
+}
+
+#faun {
+    width: 420px;
+    border: none; 
+    border-radius: 20px; 
+}
+
+.box_1 {
+  font-size: 20px;
+}
+
+
+/*Animaciones de la sección del libro*/
+
+.bg-pan-bl {
+	-webkit-animation: bg-pan-bl 13s infinite alternate-reverse both;
+	        animation: bg-pan-bl 13s infinite alternate-reverse both;
+}
+
+@-webkit-keyframes bg-pan-bl {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+@keyframes bg-pan-bl {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+
+
+/*Elementos de estilo del libro y sus características*/
+
+#titulo {
+  font-size: 15px; }
+
+#libro {
+  padding: 15px; }
+
+h3 {
+  font-size: 15px; }
+
+h4 {
+    font-size: 15px;
+    }
+
+h5 {
+  font-size: 15px;
+ }
+
+
+.uno, .dos, .tres {
+  font-size: 15px;
+   }
+
+
+/*Elementos de estilo de la sección del video*/
+
+.trailer {
+  font-size: 15px;
+  }
+
+/*Sección sobre la autora y el director*/
+
+#cornelia {
+  width: 600px; }
+
+#guillermo {
+  width: 600px; 
+}
+
+/*Estilos del formulario*/
+
+#titulo_formulario {
+  font-size: 15px;
+  }
+    
+.button {
+  padding: 10px;
+  }
+
+/*Estilos del Footer*/
+
+footer {
+  height: 10px;
+   }
+}
+
+
+
